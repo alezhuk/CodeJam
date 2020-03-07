@@ -1,13 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25123.0
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29709.97
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeJam.Main", "CodeJam.Main\CodeJam.Main.csproj", "{2F2046CC-FB47-4318-B335-5A82B04B6C40}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeJam.Main", "CodeJam.Main\CodeJam.Main.csproj", "{2F2046CC-FB47-4318-B335-5A82B04B6C40}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeJam.Blocks", "CodeJam.Blocks\CodeJam.Blocks.csproj", "{0DFF0859-2400-4487-83AD-0ED10203D6D9}"
 EndProject
 Project("{7CF6DF6D-3B04-46F8-A40B-537D21BCA0B4}") = "CodeJamDoc", "CodeJamDoc.shfbproj", "{383368D3-567C-4BF6-96D4-7A292DA5D486}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeJam.Docs.Samples", "CodeJam.Docs.Samples\CodeJam.Docs.Samples.csproj", "{8A55EA77-CD94-422D-B561-4722CF28BFD5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,8 +29,15 @@ Global
 		{383368D3-567C-4BF6-96D4-7A292DA5D486}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{383368D3-567C-4BF6-96D4-7A292DA5D486}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{383368D3-567C-4BF6-96D4-7A292DA5D486}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A55EA77-CD94-422D-B561-4722CF28BFD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A55EA77-CD94-422D-B561-4722CF28BFD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A55EA77-CD94-422D-B561-4722CF28BFD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A55EA77-CD94-422D-B561-4722CF28BFD5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C527638D-FF66-493B-A878-E9D9AAD03CB2}
 	EndGlobalSection
 EndGlobal
